@@ -1,6 +1,6 @@
 [package]
 name = "neuroplay"
-version = "1.0.0"
+version = "2.0.0"
 description = "NeuroPlay — Communication development for neurodivergent children"
 authors = ["NanoStream (Pty) Ltd"]
 edition = "2021"
