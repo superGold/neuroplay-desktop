@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroPlay</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #dbeafe 0%, #ede9fe 50%, #fce7f3 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .loader { text-align: center; padding: 2rem; }
+        .loader-icon { font-size: 4rem; animation: pulse 1.5s ease-in-out infinite; }
+        .loader-text { margin-top: 1rem; font-size: 1.2rem; color: #6b7280; }
+        @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } }
+    </style>
+</head>
+<body>
+    <div class="loader">
+        <div class="loader-icon">🧠</div>
+        <div class="loader-text">Loading NeuroPlay...</div>
+    </div>
+    <script>
+        setTimeout(() => { window.location.href = 'https://neuroplay.publon.press'; }, 2000);
+    </script>
+</body>
+</html>
